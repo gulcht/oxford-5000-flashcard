@@ -251,13 +251,13 @@ export default function FlashcardWidget() {
                   onClick={() => setAccent("uk")}
                   aria-label="Switch to UK accent"
                 >
-                  🇺‌🇰‌
+                  UK
                 </button>
               </div>
               <p>
                 {accent === "us"
                   ? `🇺🇸 ${currentWord.phonetics.us}`
-                  : `🇺‌🇰‌ ${currentWord.phonetics.uk}`}
+                  : `‌🇬🇧 ${currentWord.phonetics.uk}`}
               </p>
             </div>
 
