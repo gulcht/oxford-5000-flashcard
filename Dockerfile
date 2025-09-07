@@ -19,3 +19,6 @@ EXPOSE 3000
 
 # Start the Next.js app
 CMD ["pnpm", "start"]
+
+# docker build -t oxford-flashcard .
+# docker run --name oxford-flashcard oxford-flashcard
